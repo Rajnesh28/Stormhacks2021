@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -13,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -22,6 +24,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.stemdatingapp.MainActivity;
 import com.example.stemdatingapp.R;
 
 
@@ -120,9 +123,10 @@ public class LoginActivity extends AppCompatActivity {
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
-        // TODO : initiate successful logged in experience
+        // TODO : Launch into next activity, ie: MainActivity
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        //create a new intent and launch into
+        System.out.println("Should launch into MainActivity");
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
 
     }
 
