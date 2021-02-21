@@ -1,6 +1,6 @@
-package com.example.test1.data;
+package com.example.stemdatingapp.data;
 
-import com.example.test1.data.model.LoggedInUser;
+import com.example.stemdatingapp.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

@@ -1,4 +1,4 @@
-package com.example.test1.ui.login;
+package com.example.stemdatingapp.login;
 
 /**
  * Class exposing authenticated user details to the UI.

@@ -1,4 +1,4 @@
-package com.example.test1.ui.login;
+package com.example.stemdatingapp.login;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.example.test1.data.LoginRepository;
-import com.example.test1.data.Result;
-import com.example.test1.data.model.LoggedInUser;
-import com.example.test1.R;
+import com.example.stemdatingapp.data.LoginRepository;
+import com.example.stemdatingapp.data.Result;
+import com.example.stemdatingapp.data.model.LoggedInUser;
+import com.example.stemdatingapp.R;
 
 public class LoginViewModel extends ViewModel {
 

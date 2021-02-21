@@ -1,4 +1,4 @@
-package com.example.test1.data.model;
+package com.example.stemdatingapp.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

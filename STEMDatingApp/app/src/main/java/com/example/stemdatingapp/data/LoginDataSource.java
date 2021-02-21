@@ -1,6 +1,6 @@
-package com.example.test1.data;
+package com.example.stemdatingapp.data;
 
-import com.example.test1.data.model.LoggedInUser;
+import com.example.stemdatingapp.data.model.LoggedInUser;
 
 import java.io.IOException;
 
