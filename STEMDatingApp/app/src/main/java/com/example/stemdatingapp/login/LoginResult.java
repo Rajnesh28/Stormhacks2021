@@ -1,4 +1,4 @@
-package com.example.test1.ui.login;
+package com.example.stemdatingapp.login;
 
 import androidx.annotation.Nullable;
 

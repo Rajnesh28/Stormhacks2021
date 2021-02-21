@@ -1,4 +1,4 @@
-package com.example.test1.ui.login;
+package com.example.stemdatingapp.login;
 
 import android.app.Activity;
 
@@ -22,9 +22,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.test1.R;
-import com.example.test1.ui.login.LoginViewModel;
-import com.example.test1.ui.login.LoginViewModelFactory;
+import com.example.stemdatingapp.R;
+
 
 public class LoginActivity extends AppCompatActivity {
 
